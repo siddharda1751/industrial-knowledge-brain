@@ -1,5 +1,5 @@
 import json
-from queue__manager import job_queue
+from .queue__manager import job_queue
 
 class EventDispatcher:
     async def dispatch(self, event):

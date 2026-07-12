@@ -1,7 +1,7 @@
 from pathlib import Path
 from watchfiles import awatch
 
-from dispatcher import EventDispatcher
+from .dispatcher import EventDispatcher
 
 import uuid
 from datetime import datetime

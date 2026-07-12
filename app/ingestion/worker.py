@@ -1,4 +1,4 @@
-from queue__manager import job_queue
+from .queue__manager import job_queue
 
 async def worker():
     print("Worker Started ... \n")
