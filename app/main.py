@@ -6,9 +6,9 @@ from services.service_manager import ServiceManager
 FOLDER = "../KnowledgeBase"
 
 async def main():
-    asyncio.create_task(worker())
     services = ServiceManager()
     services.initialize()
+    asyncio.create_task(worker(services))
     await start_watching(FOLDER)
 
 if __name__ == "__main__":

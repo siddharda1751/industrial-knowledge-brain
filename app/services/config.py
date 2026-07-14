@@ -9,4 +9,4 @@ KUZU_DB_PATH = str(DATA_DIR / "kuzu_db")
 
 CHROMA_DB_PATH = str(DATA_DIR / "chroma_db")
 COLLECTION_NAME = "industrial_knowledge"
-EMBEDDING_DIMENSION = 768      # Change later based on your embedding model
+EMBEDDING_DIMENSION = 384      # Change later based on your embedding model

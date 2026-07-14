@@ -1,3 +1,17 @@
+# IMPORTANT:
+# Install CUDA PyTorch BEFORE installing these requirements.
+# Example:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# Core
 watchfiles
+
+# Database
 kuzu
 chromadb
+
+# Embeddings
+sentence-transformers
+
+# Document Parsing
+unstructured[all-docs]

@@ -4,14 +4,7 @@ class EntityExtractor:
         pass
 
     def extract(self, chunks):
-        """
-        Input:
-            List[str]
-
-        Output:
-            {
-                "entities": [...],
-                "relationships": [...]
-            }
-        """
-        raise NotImplementedError
+        return {
+            "entities": [],
+            "relationships": []
+        }

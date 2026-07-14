@@ -54,6 +54,16 @@ class RegistryService:
         row = self.cursor.fetchone()
         return dict(row) if row else None
     
+    def get_document_id(self,resource_uri):
+        self.cursor.execute(
+            """
+            SELECT document_id FROM documents WHERE resource_uri = ?
+            """,
+            (resource_uri,)
+        )
+        row = self.cursor.fetchone()
+        return row["document_id"] if row else None
+    
     def document_exists(self,resource_uri):
         self.cursor.execute(
             """

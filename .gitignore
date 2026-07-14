@@ -20,6 +20,16 @@ env/
 *.sqlite
 *.sqlite3
 
+# KuzuDB
+app/data/kuzu_db*
+*.wal
+
+# ChromaDB
+app/data/chroma_db/
+
+# Debug output
+app/debug/outputs/
+
 # -----------------------
 # Logs
 # -----------------------
