@@ -20,6 +20,12 @@ env/
 *.sqlite
 *.sqlite3
 
+# Ignore generated data
+app/data/*
+
+# Keep the folder
+!app/data/.gitkeep
+
 # KuzuDB
 app/data/kuzu_db*
 *.wal
