@@ -11,9 +11,9 @@ CREATE TABLE IF NOT EXISTS documents(
 
     status TEXT,
 
-    parser_version INTEGER,
+    parser_version INTEGER DEFAULT 1,
 
-    chunk_count INTEGER,
+    chunk_count INTEGER DEFAULT 0,
 
     created_at TEXT,
 
