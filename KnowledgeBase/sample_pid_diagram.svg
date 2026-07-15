@@ -1,0 +1,89 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <text x="20" y="30" font-size="16" font-weight="bold">P&amp;ID — Feed Transfer &amp; Heat Exchange Loop (Unit 100) — Rev 2</text>
+
+  <!-- Feed Tank TK-101 -->
+  <rect x="40" y="120" width="90" height="160" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="40" y1="140" x2="130" y2="140" stroke="black" stroke-width="2"/>
+  <text x="55" y="215" font-size="14" font-weight="bold">TK-101</text>
+  <text x="45" y="230" font-size="11">Feed Storage Tank</text>
+
+  <!-- Level instruments on TK-101 -->
+  <circle cx="150" cy="150" r="18" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="139" y="154" font-size="11">LT-102</text>
+  <circle cx="150" cy="190" r="18" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="134" y="194" font-size="10">LAH-102</text>
+
+  <!-- Line from tank to pump -->
+  <line x1="130" y1="260" x2="220" y2="260" stroke="black" stroke-width="2"/>
+  <text x="140" y="252" font-size="10">4"-P-101-CS</text>
+
+  <!-- Pump P-101A -->
+  <circle cx="250" cy="260" r="30" fill="none" stroke="black" stroke-width="2"/>
+  <polygon points="240,250 240,270 265,260" fill="black"/>
+  <text x="228" y="305" font-size="13" font-weight="bold">P-101A</text>
+  <text x="210" y="318" font-size="10">Centrifugal Pump (Duty)</text>
+
+  <!-- Pump P-101B (standby) -->
+  <circle cx="250" cy="360" r="30" fill="none" stroke="black" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="240,350 240,370 265,360" fill="black"/>
+  <text x="228" y="405" font-size="13" font-weight="bold">P-101B</text>
+  <text x="205" y="418" font-size="10">Centrifugal Pump (Standby)</text>
+  <line x1="130" y1="360" x2="220" y2="360" stroke="black" stroke-width="2"/>
+
+  <!-- Line pump to FCV -->
+  <line x1="280" y1="260" x2="360" y2="260" stroke="black" stroke-width="2"/>
+
+  <!-- Flow instruments -->
+  <circle cx="380" cy="260" r="18" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="368" y="264" font-size="11">FT-101</text>
+  <circle cx="380" cy="220" r="18" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="365" y="224" font-size="10">FIC-101</text>
+  <line x1="380" y1="238" x2="380" y2="242" stroke="black" stroke-width="1"/>
+
+  <!-- Control Valve FV-101 -->
+  <polygon points="420,250 420,270 445,260" fill="none" stroke="black" stroke-width="2"/>
+  <polygon points="470,250 470,270 445,260" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="398" y1="260" x2="420" y2="260" stroke="black" stroke-width="2"/>
+  <text x="415" y="290" font-size="12" font-weight="bold">FV-101</text>
+  <line x1="445" y1="230" x2="445" y2="250" stroke="black" stroke-width="1"/>
+  <line x1="445" y1="238" x2="380" y2="238" stroke="black" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Line to heat exchanger -->
+  <line x1="470" y1="260" x2="560" y2="260" stroke="black" stroke-width="2"/>
+
+  <!-- Heat Exchanger E-101 -->
+  <rect x="560" y="220" width="120" height="80" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="560" y1="240" x2="680" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="560" y1="260" x2="680" y2="260" stroke="black" stroke-width="1"/>
+  <line x1="560" y1="280" x2="680" y2="280" stroke="black" stroke-width="1"/>
+  <text x="590" y="315" font-size="13" font-weight="bold">E-101</text>
+  <text x="565" y="330" font-size="10">Shell &amp; Tube Heat Exchanger</text>
+
+  <!-- Temperature instrument -->
+  <circle cx="700" cy="260" r="18" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="688" y="264" font-size="11">TI-104</text>
+  <line x1="680" y1="260" x2="682" y2="260" stroke="black" stroke-width="2"/>
+
+  <!-- Line to reactor -->
+  <line x1="718" y1="260" x2="780" y2="260" stroke="black" stroke-width="2"/>
+  <line x1="780" y1="260" x2="780" y2="200" stroke="black" stroke-width="2"/>
+
+  <!-- Reactor R-101 -->
+  <rect x="740" y="80" width="90" height="120" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="780" y1="200" x2="785" y2="200" stroke="black" stroke-width="2"/>
+  <text x="755" y="150" font-size="13" font-weight="bold">R-101</text>
+  <text x="745" y="165" font-size="10">Reactor Vessel</text>
+
+  <!-- PSV on Reactor -->
+  <polygon points="820,60 835,60 827,40" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="827" y1="60" x2="827" y2="80" stroke="black" stroke-width="2"/>
+  <text x="800" y="35" font-size="11" font-weight="bold">PSV-103</text>
+  <text x="795" y="20" font-size="9">Set: 10.5 barg</text>
+
+  <!-- Legend -->
+  <rect x="20" y="440" width="860" height="50" fill="none" stroke="black" stroke-width="1"/>
+  <text x="30" y="458" font-size="10" font-weight="bold">Legend:</text>
+  <text x="30" y="475" font-size="9">TK = Tank | P = Pump | FV = Flow Control Valve | E = Heat Exchanger | R = Reactor | PSV = Pressure Safety Valve</text>
+  <text x="30" y="487" font-size="9">LT/LAH = Level Transmitter/High Alarm | FT/FIC = Flow Transmitter/Indicating Controller | TI = Temperature Indicator</text>
+</svg>

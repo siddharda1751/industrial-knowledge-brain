@@ -1,0 +1,13 @@
+tag_number,tag_type,description,equipment_class,connected_from,connected_to,service_fluid,design_parameter,unit
+TK-101,Vessel,Feed Storage Tank,Storage Tank,,P-101A/B,Process Feed,Capacity 50 m3,m3
+LT-102,Instrument,Tank Level Transmitter,Level Transmitter,TK-101,DCS,Process Feed,Range 0-5000,mm
+LAH-102,Instrument,Tank Level High Alarm,Level Alarm,TK-101,DCS,Process Feed,Alarm at 90% level,%
+P-101A,Rotating Equipment,Centrifugal Pump (Duty),Pump,TK-101,FT-101,Process Feed,Flow 45 m3/hr,m3/hr
+P-101B,Rotating Equipment,Centrifugal Pump (Standby),Pump,TK-101,FT-101,Process Feed,Flow 45 m3/hr,m3/hr
+FT-101,Instrument,Flow Transmitter,Flow Transmitter,P-101A/B,FIC-101,Process Feed,Range 0-60,m3/hr
+FIC-101,Instrument,Flow Indicating Controller,Controller,FT-101,FV-101,Process Feed,PID control loop,-
+FV-101,Valve,Feed Flow Control Valve,Control Valve,FIC-101,E-101,Process Feed,CV 25,-
+E-101,Heat Exchanger,Shell and Tube Heat Exchanger,Heat Exchanger,FV-101,TI-104,Process Feed / Steam,Duty 850 kW,kW
+TI-104,Instrument,Outlet Temperature Indicator,Temperature Indicator,E-101,R-101,Process Feed,Range 0-200,degC
+R-101,Vessel,Reactor Vessel,Reactor,TI-104,PSV-103,Process Feed,Design pressure 12 barg,barg
+PSV-103,Safety Device,Pressure Safety Valve,Relief Valve,R-101,Flare Header,Process Feed,Set pressure 10.5 barg,barg
